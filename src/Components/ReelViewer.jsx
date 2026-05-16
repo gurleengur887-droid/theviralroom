@@ -57,7 +57,7 @@ export default function ReelViewer({
 
     setIsPlaying(true);
 
-  }, [index, safeItems.length]);
+ }, [index, isMuted, safeItems.length]);
 
   const next = () => {
 

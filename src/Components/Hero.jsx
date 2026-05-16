@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import logo_2 from "../Images/logo_2.PNG";
-import main from "../Images/main.PNG";
+
 
 export default function Hero() {
 

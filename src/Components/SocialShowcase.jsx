@@ -74,7 +74,7 @@ export default function SocialShowcase() {
     return () =>
       window.removeEventListener("mousemove", move);
 
-  }, []);
+}, [mouseX, mouseY]);
 
   const rotateX = useTransform(
     mouseY,

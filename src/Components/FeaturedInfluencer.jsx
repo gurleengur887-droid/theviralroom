@@ -50,8 +50,6 @@ export default function FeaturedInfluencer() {
 
     if (!isInView) return;
 
-    let start = 0;
-
     const end = 65;
 
     const duration = 1200;

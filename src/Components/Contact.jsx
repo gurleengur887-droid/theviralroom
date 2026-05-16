@@ -286,16 +286,6 @@ export default function Contact() {
           onMouseMove={handleMove}
           onMouseLeave={resetTilt}
 
-          animate={{
-            rotateX: isTouchDevice
-              ? 0
-              : tilt.x,
-
-            rotateY: isTouchDevice
-              ? 0
-              : tilt.y,
-          }}
-
           transition={{
             type: "spring",
             stiffness: 180,
